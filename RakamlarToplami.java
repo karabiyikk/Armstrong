@@ -1,5 +1,3 @@
-package Donguler;
-
 import java.util.Scanner;
 
 public class RakamlarToplami {
@@ -15,6 +13,6 @@ public class RakamlarToplami {
             toplam = toplam + (sayi % 10);
             sayi = sayi / 10;
         }
-        System.out.println(toplam);
+        System.out.print("Girilen sayının rakamlarının toplamı : " +toplam);
     }
 }
